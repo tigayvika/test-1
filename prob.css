@@ -1,0 +1,132 @@
+body {
+    background-color: #EFF6FF;
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    margin: 20px;
+}
+
+.Get {
+    font-size: 28px;
+    font-family: barlow;
+    padding: 20px 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #2A4A5C;
+}
+
+.facebook {
+    margin: 50px;
+    padding: 30px 200px;
+    font-family: barlow;
+    border: none;
+    color: #2A4A5C;
+}
+
+.btn1 {
+    background-color: #255A9B;
+    color: #FFFFFF;
+    padding: 3px;
+    border: none;
+}
+
+.btn2 {
+    background-color: #0076B6;
+    color: #FFFFFF;
+    padding: 3px;
+    border: none;
+}
+
+.form-box {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 0;
+    height: 0;
+}
+
+.test {
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Barlow SemiBold;
+}
+
+.reserv-button {
+    margin-top: 180px;
+    font-size: 14px;
+    font-family: Barlow SemiBold;
+    color: #7B8A92;
+}
+
+.btn-primary {
+    display: block;
+    margin-top: 0px;
+    margin-left: 250px;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    background-color: #3698FB;
+    border-radius: 5%;
+    border: none;
+}
+
+.link-offset-1 {
+    font-size: 15px;
+    color: #3698FB;
+}
+
+form {
+    height: 50px;
+}
+
+.paragraf {
+    font-family: barlow regular;
+}
+
+.paragraf1 {
+    font-family: barlow regular;
+    font-size: 20px;
+    margin-block-start: 2em;
+}
+
+input {
+    padding-block: 7px;
+}
+
+.container {
+    padding: 40px 40px;
+}
+
+hr {
+    display: block;
+    margin-block-start: 1.5em;
+}
+.tooltip {
+    position: relative;
+    display: inline-table;
+}
+
+.tooltip .tooltiptext {
+    margin-top: 40px;
+    visibility: hidden;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #96A5B1;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: barlow regular;
+    font-size: 15px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
